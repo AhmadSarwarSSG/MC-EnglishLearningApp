@@ -22,6 +22,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="A"
                 android:textSize="34sp" />
 
@@ -31,6 +32,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="B"
                 android:textSize="34sp" />
 
@@ -40,6 +42,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="C"
                 android:textSize="34sp" />
 
@@ -49,6 +52,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="D"
                 android:textSize="34sp" />
 
@@ -58,6 +62,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="E"
                 android:textSize="34sp" />
         </LinearLayout>
@@ -73,6 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="F"
                 android:textSize="34sp" />
 
@@ -82,6 +88,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="G"
                 android:textSize="34sp" />
 
@@ -91,6 +98,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="H"
                 android:textSize="34sp" />
 
@@ -100,6 +108,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="I"
                 android:textSize="34sp" />
 
@@ -109,6 +118,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="J"
                 android:textSize="34sp" />
         </LinearLayout>
@@ -124,6 +134,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="K"
                 android:textSize="34sp" />
 
@@ -133,6 +144,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="L"
                 android:textSize="34sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -144,6 +156,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="M"
                 android:textSize="34sp" />
 
@@ -153,6 +166,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="N"
                 android:textSize="34sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -164,6 +178,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="O"
                 android:textSize="34sp" />
         </LinearLayout>
@@ -179,6 +194,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="P"
                 android:textSize="34sp" />
 
@@ -188,6 +204,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="Q"
                 android:textSize="34sp" />
 
@@ -197,6 +214,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="R"
                 android:textSize="34sp" />
 
@@ -206,6 +224,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="S"
                 android:textSize="34sp" />
 
@@ -215,6 +234,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="T"
                 android:textSize="34sp" />
         </LinearLayout>
@@ -230,6 +250,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="U"
                 android:textSize="34sp" />
 
@@ -239,6 +260,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="V"
                 android:textSize="34sp" />
 
@@ -248,6 +270,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="W"
                 android:textSize="34sp" />
 
@@ -257,6 +280,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="X"
                 android:textSize="34sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -268,6 +292,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="Y"
                 android:textSize="34sp" />
         </LinearLayout>
@@ -283,6 +308,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/custombutton"
                 android:text="Z"
                 android:textSize="34sp" />
         </LinearLayout>

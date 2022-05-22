@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChildLearningApplication">
         <activity
+            android:name=".TestModule"
+            android:exported="false" />
+        <activity
             android:name=".Enterance"
             android:exported="false" />
         <activity

@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         a=findViewById(R.id.button);
-        b=findViewById(R.id.button2);
-        c=findViewById(R.id.button3);
-        d=findViewById(R.id.button4);
+        b=findViewById(R.id.button4);
+        c=findViewById(R.id.button2);
+        d=findViewById(R.id.button3);
         e=findViewById(R.id.button5);
         f=findViewById(R.id.button6);
         g=findViewById(R.id.button7);
@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         i=findViewById(R.id.button9);
         j=findViewById(R.id.button10);
         k=findViewById(R.id.button11);
-        l=findViewById(R.id.button12);
-        m=findViewById(R.id.button13);
+        l=findViewById(R.id.button13);
+        m=findViewById(R.id.button12);
         n=findViewById(R.id.button14);
         o=findViewById(R.id.button15);
         p=findViewById(R.id.button16);
@@ -106,19 +106,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra("picture", R.drawable.a);
                 startActivity(intent);
                 break;
-            case R.id.button2:
+            case R.id.button4:
                 Intent intentb=new Intent(this, displau.class);
                 intentb.putExtra("text", "B");
                 intentb.putExtra("picture", R.drawable.b);
                 startActivity(intentb);
                 break;
-            case R.id.button3:
+            case R.id.button2:
                 Intent intentc=new Intent(this, displau.class);
                 intentc.putExtra("text", "C");
                 intentc.putExtra("picture", R.drawable.c);
                 startActivity(intentc);
                 break;
-            case R.id.button4:
+            case R.id.button3:
                 Intent intentd=new Intent(this, displau.class);
                 intentd.putExtra("text", "D");
                 intentd.putExtra("picture", R.drawable.d);
@@ -166,13 +166,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intentk.putExtra("picture", R.drawable.k);
                 startActivity(intentk);
                 break;
-            case R.id.button12:
+            case R.id.button13:
                 Intent intentl=new Intent(this, displau.class);
                 intentl.putExtra("text", "L");
-                intentl.putExtra("picture", R.drawable.a);
+                intentl.putExtra("picture", R.drawable.l);
                 startActivity(intentl);
                 break;
-            case R.id.button13:
+            case R.id.button12:
                 Intent intentm=new Intent(this, displau.class);
                 intentm.putExtra("text", "M");
                 intentm.putExtra("picture", R.drawable.m);

@@ -3,14 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ChildLearningApplication/app/src/main/res/drawable/custombutton.xml" value="0.1945" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1045" />
-        <entry key="..\:/ChildLearningApplication/app/src/main/res/layout-land/activity_displau.xml" value="0.17864583333333334" />
+        <entry key="..\:/ChildLearningApplication/app/src/main/res/layout-land/activity_displau.xml" value="0.13" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/layout-land/activity_enterance.xml" value="0.17864583333333334" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/layout-land/activity_main.xml" value="0.17864583333333334" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/layout/activity_alphabet_display.xml" value="0.18426678067550234" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/layout/activity_displau.xml" value="0.1" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/layout/activity_enterance.xml" value="0.1554850407978241" />
         <entry key="..\:/ChildLearningApplication/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/ChildLearningApplication/app/src/main/res/layout/activity_test_module.xml" value="0.1554850407978241" />
       </map>
     </option>
   </component>
