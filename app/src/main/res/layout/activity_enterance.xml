@@ -13,12 +13,12 @@
         android:layout_marginTop="237dp"
         android:text="Learn"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/button28"
-        app:layout_constraintStart_toStartOf="@+id/button28"
+        app:layout_constraintEnd_toEndOf="@+id/test"
+        app:layout_constraintStart_toStartOf="@+id/test"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/repo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="267dp"
@@ -31,14 +31,14 @@
         app:layout_constraintTop_toBottomOf="@+id/learn" />
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
         android:text="Test"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/button29"
-        app:layout_constraintStart_toStartOf="@+id/button29"
+        app:layout_constraintEnd_toEndOf="@+id/repo"
+        app:layout_constraintStart_toStartOf="@+id/repo"
         app:layout_constraintTop_toBottomOf="@+id/learn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

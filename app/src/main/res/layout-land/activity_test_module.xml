@@ -25,7 +25,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="1"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/two"
@@ -35,7 +35,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="2"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/three"
@@ -45,14 +45,14 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="3"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/four"
@@ -62,7 +62,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="4"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/five"
@@ -72,7 +72,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="5"
-                android:textSize="60sp"
+                android:textSize="48sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -84,14 +84,14 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="6"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/seven"
@@ -101,7 +101,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="7"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/eight"
@@ -111,7 +111,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="8"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
 
             <Button
                 android:id="@+id/nine"
@@ -121,14 +121,14 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="9"
-                android:textSize="60sp" />
+                android:textSize="48sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/ten"
@@ -138,7 +138,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="10"
-                android:textSize="60sp"
+                android:textSize="48sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
