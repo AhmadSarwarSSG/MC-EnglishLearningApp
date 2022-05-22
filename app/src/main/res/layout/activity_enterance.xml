@@ -4,41 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".Enterance">
 
     <Button
         android:id="@+id/learn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="237dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/custombutton"
         android:text="Learn"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/test"
-        app:layout_constraintStart_toStartOf="@+id/test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/repo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="267dp"
-        android:layout_marginBottom="267dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custombutton"
         android:text="Repository"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/learn" />
+        app:layout_constraintTop_toBottomOf="@+id/test" />
 
     <Button
         android:id="@+id/test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custombutton"
         android:text="Test"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/repo"
-        app:layout_constraintStart_toStartOf="@+id/repo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/learn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
