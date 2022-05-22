@@ -27,8 +27,9 @@ public class displau extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(displau.this, MainActivity.class);
-                startActivity(intent);
+//                Intent intent=new Intent(displau.this, MainActivity.class);
+//                startActivity(intent);
+                finish(); //Adding finish to remove this activity while leaving this ativity
             }
         });
     }

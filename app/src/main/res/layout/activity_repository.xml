@@ -21,7 +21,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/a" />
+                app:srcCompat="@drawable/repo" />
         </LinearLayout>
 
         <LinearLayout
@@ -35,9 +35,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="20dp"
+                android:layout_weight="1"
                 android:background="@drawable/custombutton"
                 android:text="Open Repsoitory"
-                android:textSize="34sp" />
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custombutton"
+                android:text="Back"
+                android:textSize="28sp" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

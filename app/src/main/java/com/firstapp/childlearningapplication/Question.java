@@ -43,8 +43,9 @@ public class Question extends AppCompatActivity implements View.OnClickListener{
         if(b.getText().toString().equals(intent.getStringExtra("Answer")))
         {
             Toast.makeText(this, "Correct Answer", Toast.LENGTH_SHORT).show();
-            Intent intent1=new Intent(this, TestModule.class);
-            startActivity(intent1);
+//          Intent intent1=new Intent(this, TestModule.class);
+//          startActivity(intent1);
+            finish();   ////Adding finish to remove this activity while leaving this ativity
         }
         else
         {
