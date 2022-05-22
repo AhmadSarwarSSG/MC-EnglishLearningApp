@@ -37,8 +37,7 @@ public class Enterance extends AppCompatActivity implements View.OnClickListener
                 startActivity(intent2);
                 break;
             case R.id.repo:
-                Uri webpage=Uri.parse("https://github.com/AhmadSarwarSSG/MC-EnglishLearningApp");
-                Intent intent3=new Intent(Intent.ACTION_VIEW, webpage);
+                Intent intent3=new Intent(this, Repository.class);
                 startActivity(intent3);
                 break;
         }
