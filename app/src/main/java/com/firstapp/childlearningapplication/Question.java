@@ -18,25 +18,16 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class Question extends AppCompatActivity{
-    Button option1;
-    Button option2;
-    Button option3;
-    Button option4;
     ImageView Qimage;
     ListView options;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ArrayList<String> alphabets=new ArrayList<String>();
         AlertDialog.Builder builder=new AlertDialog.Builder(Question.this);
         builder.setMessage("You Answer is Correct");
         builder.setTitle("Congratulations!");
         ArrayList<String> optionList=new ArrayList<>();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
-        option1=findViewById(R.id.option1);
-        option2=findViewById(R.id.option2);
-        option3=findViewById(R.id.option3);
-        option4=findViewById(R.id.option4);
         Qimage=findViewById(R.id.imageView2);
         options=findViewById(R.id.options);
         Intent intent=getIntent();
@@ -45,8 +36,8 @@ public class Question extends AppCompatActivity{
         optionList.add(intent.getStringExtra("option3"));
         optionList.add(intent.getStringExtra("option4"));
         Qimage.setImageResource(intent.getIntExtra("picture", 99999));
-        ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, optionList);
-        options.setAdapter(arrayAdapter);
+        CustomView CV=new CustomView(this, optionList);
+        options.setAdapter(CV);
         builder.setPositiveButton("Next", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

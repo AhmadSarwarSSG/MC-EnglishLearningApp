@@ -10,44 +10,45 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
+        android:layout_marginStart="26dp"
         android:layout_marginTop="64dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginBottom="66dp"
         android:text="A"
         android:textSize="96sp"
         app:layout_constraintBottom_toTopOf="@+id/button27"
-        app:layout_constraintStart_toEndOf="@+id/img"
+        app:layout_constraintStart_toStartOf="@+id/button27"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="0dp "
         android:layout_marginEnd="39dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_menu_crop" />
 
     <Button
         android:id="@+id/button27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="63dp"
         android:background="@drawable/custombutton"
         android:text="Back"
         android:textSize="34sp"
-        app:layout_constraintEnd_toStartOf="@+id/button31"
-        app:layout_constraintStart_toEndOf="@+id/img"
-        app:layout_constraintTop_toTopOf="@+id/button31" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button30"
+        app:layout_constraintStart_toEndOf="@+id/img" />
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/button30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="125dp"
         android:layout_marginBottom="52dp"
         android:background="@drawable/ic_baseline_volume_up_24"
         android:drawableStart="@drawable/ic_baseline_volume_up_24"
@@ -59,14 +60,14 @@
         app:layout_constraintStart_toEndOf="@+id/button27" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="63dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="90dp"
         android:text="Apple"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
